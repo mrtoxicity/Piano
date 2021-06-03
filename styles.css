@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -16,7 +18,6 @@ body {
 }
 
 .key {
-
 }
 
 .white {
@@ -26,7 +27,7 @@ body {
   border: 1px solid #333;
 }
 .white.active {
-  background-color: #CCC;
+  background-color: #ccc;
 }
 
 .black {
